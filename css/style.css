@@ -259,6 +259,12 @@ body {
   padding: 188px 0;
   height: 600px;
   background-color: var(--primary-headline-color-theme-light);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-bg.jpg);
+  background-size: cover;
 }
 
 .hero {
@@ -401,7 +407,49 @@ body {
 }
 
 /* ================= /EMPLOYEES ================= */
+/* ================= CUSTOMERS ================= */
+.base-of-customers {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--primary-text-color-theme-dark);
+}
 
+.base-of-customers-title {
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--primary-headline-color-theme-light);
+}
+
+.customers-logo-list {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 24px;
+}
+
+.client-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+
+.client-logo-icon {
+  color: #8e8f99;
+}
+
+.client-logo:hover .client-logo-icon,
+.client-logo:focus .client-logo-icon {
+  fill: var(--list-buttons-color);
+}
+/* ================= /CUSTOMERS ================= */
 /* ================= /MAIN CONTENT================= */
 
 /* ================= FOOTER ================= */

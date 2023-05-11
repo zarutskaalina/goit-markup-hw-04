@@ -299,6 +299,22 @@ body {
   padding-bottom: 120px;
 }
 
+.advantages-list {
+  display: flex;
+  gap: 24px;
+}
+
+.advantages-list-link {
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+  background: var(--secondary-color);
+  border-radius: 4px;
+}
+
 .principles-list {
   gap: 24px;
 }
@@ -324,6 +340,7 @@ body {
   color: var(--primary-text-color-theme-light);
 }
 /* ================= /OUR PRINCIPLES ================= */
+
 .gallery-our-work {
   padding-bottom: 120px;
 }
@@ -423,9 +440,13 @@ body {
   background-color: var(--accent-color);
 }
 
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: #404bbf;
+.social-list-link {
+  fill: #f4f4fd;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #404bbf;
 }
 /* ================= /EMPLOYEES ================= */
 /* ================= CUSTOMERS ================= */
@@ -452,7 +473,7 @@ body {
   column-gap: 24px;
 }
 
-.client-logo {
+.client-logo-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -462,8 +483,12 @@ body {
   border-radius: 4px;
 }
 
-.client-logo:hover .client-logo-icon,
-.client-logo:focus .client-logo-icon {
+.client-logo-link {
+  fill: #8e8f99;
+}
+
+.client-logo-item:hover .client-logo-link,
+.client-logo-item:focus .client-logo-link {
   fill: var(--list-buttons-color);
 }
 /* ================= /CUSTOMERS ================= */
@@ -511,4 +536,5 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color-theme-dark);
 }
+
 /* ================= /FOOTER ================= */

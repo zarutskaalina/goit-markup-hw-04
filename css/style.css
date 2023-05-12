@@ -512,6 +512,7 @@ body {
 .page-footer {
   display: flex;
   flex-wrap: wrap;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -533,7 +534,7 @@ body {
 }
 
 .social {
-  margin-left: 120px;
+  margin-right: 120px;
 }
 
 .social-media {

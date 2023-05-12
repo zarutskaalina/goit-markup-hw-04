@@ -534,7 +534,7 @@ body {
 }
 
 .social {
-  margin-right: 120px;
+  margin-left: 120px;
 }
 
 .social-media {
@@ -544,6 +544,15 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color-theme-dark);
+}
+
+.social-part {
+  gap: 16px;
+}
+
+.social-item:hover,
+.social-item:focus {
+  background-color: #31d0aa;
 }
 
 /* ================= /FOOTER ================= */

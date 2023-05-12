@@ -521,9 +521,11 @@ body {
 
 .page-footer {
   display: flex;
-  flex-wrap: wrap;
   align-items: baseline;
-  gap: 120px;
+}
+
+.footer-content {
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -553,7 +555,7 @@ body {
   color: var(--primary-text-color-theme-dark);
 }
 
-.social-part {
+.social-media-part {
   gap: 16px;
 }
 

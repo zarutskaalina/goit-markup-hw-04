@@ -7,6 +7,7 @@
   --secondary-color: #f4f4fd;
   --accent-color: #4d5ae5;
   --list-buttons-color: #404bbf;
+  --icon-color: #8e8f99;
 }
 
 .list {
@@ -475,7 +476,7 @@ body {
 .customers-logo-list {
   display: flex;
   justify-content: space-between;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .client-logo-link {
@@ -484,17 +485,18 @@ body {
   justify-content: center;
   width: 168px;
   height: 88px;
-  border: 1px solid #8e8f99;
+  border: 1px solid var(--icon-color);
   border-radius: 4px;
+  color: var(--icon-color);
 }
 
-.client-logo-link {
-  fill: #8e8f99;
+.client-logo-icon {
+  fill: currentColor;
 }
 
 .client-logo-item:hover .client-logo-link,
 .client-logo-item:focus .client-logo-link {
-  fill: var(--list-buttons-color);
+  color: #404bbf;
   border: 1px solid #404bbf;
 }
 /* ================= /CUSTOMERS ================= */

@@ -432,7 +432,7 @@ body {
   margin-top: 8px;
   display: flex;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .social-list-link {
@@ -441,7 +441,7 @@ body {
   justify-content: center;
   width: 40px;
   height: 40px;
-  border-radius: 50px;
+  border-radius: 50%;
   background-color: var(--accent-color);
 }
 

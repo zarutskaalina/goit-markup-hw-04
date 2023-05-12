@@ -497,7 +497,7 @@ body {
 .client-logo-item:hover .client-logo-link,
 .client-logo-item:focus .client-logo-link {
   color: #404bbf;
-  border: 1px solid #404bbf;
+  border-color: #404bbf;
 }
 /* ================= /CUSTOMERS ================= */
 /* ================= /MAIN CONTENT================= */

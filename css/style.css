@@ -523,6 +523,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+  gap: 120px;
 }
 
 .footer-logo {
@@ -541,10 +542,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
-}
-
-.social {
-  margin-left: 120px;
 }
 
 .social-media {

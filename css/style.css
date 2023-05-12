@@ -490,6 +490,7 @@ body {
 .client-logo-item:hover .client-logo-link,
 .client-logo-item:focus .client-logo-link {
   fill: var(--list-buttons-color);
+  border: 1px solid #404bbf;
 }
 /* ================= /CUSTOMERS ================= */
 /* ================= /MAIN CONTENT================= */

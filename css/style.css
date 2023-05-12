@@ -504,7 +504,11 @@ body {
   fill: currentColor;
 }
 
-.client-logo-item:hover .client-logo-link,
+.client-logo-item:hover .client-logo-link {
+  color: #404bbf;
+  border-color: #404bbf;
+}
+
 .client-logo-item:focus .client-logo-link {
   color: #404bbf;
   border-color: #404bbf;

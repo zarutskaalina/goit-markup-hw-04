@@ -467,8 +467,8 @@ body {
 /* ================= /EMPLOYEES ================= */
 /* ================= CUSTOMERS ================= */
 .base-of-customers {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: var(--primary-text-color-theme-dark);
 }
 
@@ -504,11 +504,7 @@ body {
   fill: currentColor;
 }
 
-.client-logo-item:hover .client-logo-link {
-  color: #404bbf;
-  border-color: #404bbf;
-}
-
+.client-logo-item:hover .client-logo-link,
 .client-logo-item:focus .client-logo-link {
   color: #404bbf;
   border-color: #404bbf;
